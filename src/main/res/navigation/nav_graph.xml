@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/medicineFragment">
+
+    <fragment
+        android:id="@+id/medicineFragment"
+        android:name="com.example.smartpillbox.ui.MedicineFragment" />
+    <fragment
+        android:id="@+id/reminderFragment"
+        android:name="com.example.smartpillbox.ui.ReminderFragment" />
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.example.smartpillbox.ui.RecordFragment" />
+</navigation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/et_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入药格号 (1-8)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_period"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入 period"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_dosage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入 dosage"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_set_reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设定并发送"
+        android:layout_gravity="center" />
+
+</LinearLayout>

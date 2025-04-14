@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SmartPillBox" parent="Theme.MaterialComponents.DayNight">
+        <!-- 在这里可以添加自定义的主题属性 -->
+    </style>
+</resources>

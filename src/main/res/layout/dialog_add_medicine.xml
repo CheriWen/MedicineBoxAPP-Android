@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="药品名称" />
+
+    <EditText
+        android:id="@+id/et_expiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="有效期 (如 2024-12-31)" />
+
+    <EditText
+        android:id="@+id/et_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="类型" />
+
+    <EditText
+        android:id="@+id/et_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="存放的格号"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照" />
+
+</LinearLayout>
